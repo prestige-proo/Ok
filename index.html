@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CGPA Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>CGPA Calculator</h1>
+
+    <div id="courses">
+      <div class="course">
+        <input type="number" placeholder="Grade Point (e.g. 4)" class="grade">
+        <input type="number" placeholder="Credit Unit (e.g. 3)" class="credit">
+      </div>
+    </div>
+
+    <button onclick="addCourse()">+ Add Course</button>
+    <button onclick="calculateCGPA()">Calculate CGPA</button>
+
+    <h2 id="result">Your CGPA: 0.00</h2>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
